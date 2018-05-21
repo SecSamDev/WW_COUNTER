@@ -3,11 +3,11 @@
     "description" : "A module for count values",
     "submodules" : [
         {
-            "tag" : "COUNTER_TO",
-            "script" : "COUNTER_TO.wwm.js",
+            "tag" : "COUNTER_EXEC",
+            "script" : "COUNTER_EXEC.wwm.js",
             "template" : {
-                "name" : "COUNTER",
-                "tag" : "COUNTER_TO",
+                "name" : "Count executor",
+                "tag" : "COUNTER_EXEC",
                 "type" : "ANY",
                 "status" : 0,
                 "inputConnectors" : [
@@ -33,7 +33,7 @@
                         "optional" : false
                     },
                     {
-                        "nickname" : "Count until",
+                        "nickname" : "Counter until",
                         "name" : "_COUNT_TO",
                         "type" : "NUMBER",
                         "value":"3",
